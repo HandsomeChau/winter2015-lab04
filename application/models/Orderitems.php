@@ -5,11 +5,13 @@
  *
  * @author jim
  */
-class Orderitems extends MY_Model2 {
+class Orderitems extends MY_Model2
+{
 
     // constructor
-    function __construct() {
-        parent::__construct('orderitems', 'order', 'item');
+    function __construct()
+    {
+        parent::__construct( 'orderitems', 'order', 'item' );
     }
 
 }

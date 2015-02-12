@@ -1,5 +1,5 @@
 <p class="lead">
-    <a href="/order/neworder" class="btn btn-large btn-primary">Start a new order</a>    
+    <a href="/order/neworder" class="btn btn-large btn-primary">Start a new order</a>
 </p>
 <p>Order summary:</p>
 <table class="table">

@@ -59,7 +59,9 @@ class Orders extends MY_Model
     // cancel an order
     function flush( $num )
     {
-
+        $CI = &get_instance();
+        $CI->orderitems->delete_some( $num );
+        $CI->orders->delete( $num );
     }
 
     // validate an order
